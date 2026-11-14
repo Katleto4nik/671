@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.totemnoanimation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "AbstractSoundInstanceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

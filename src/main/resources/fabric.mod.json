@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "totemnoanimation",
+  "version": "${version}",
+  "name": "Totem no animation",
+  "description": "Delete totem pop animation",
+  "license": "MIT",
+  "icon": "assets/totemnoanimation/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.totemnoanimation.TotemNoAnimationClient"
+    ]
+  },
+  "mixins": [
+    "totemnoanimation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
